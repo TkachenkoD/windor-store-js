@@ -1,0 +1,42 @@
+{
+	"001": {
+		"name": "Двери входные",
+		"price": 1000,
+		"picture": "imagesForItems/item001.png"
+	},
+	"002": {
+		"name": "Двери межкомнатные",
+		"price": 2000,
+		"picture": "imagesForItems/item002.jpg"
+	},
+	"003": {
+		"name": "Двери входные",
+		"price": 1500,
+		"picture": "imagesForItems/item003.png"
+	},
+	"004": {
+		"name": "Двери межкомнатные",
+		"price": 1000,
+		"picture": "imagesForItems/item004.png"
+	},
+	"005": {
+		"name": "Двери из массива",
+		"price": 3000,
+		"picture": "imagesForItems/item005.png"
+	},
+	"006": {
+		"name": "Двери из массива",
+		"price": 2500,
+		"picture": "imagesForItems/item006.png"
+	},
+	"007": {
+		"name": "Двери шпонированные",
+		"price": 2000,
+		"picture": "imagesForItems/item007.png"
+	},
+	"008": {
+		"name": "Двери из массива",
+		"price": 3000,
+		"picture": "imagesForItems/item008.png"
+	}
+}

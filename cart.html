@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="CSS/cart.css">
+  <title>Cart</title>
+</head>
+<body>
+  <div class="order">Ваш заказ:</div>
+  <section>
+    <div><a href="items.html">вернутся в магазин</a></div>
+  <div class="cart leftSide">
+    <h3>Корзина</h3>
+    <p><span>Товаров:    </span><span></span></p>
+    <p><span>На сумму:    </span><span class="priceCart"></span></p>
+  </div>
+  <div class="item">
+
+  </div>
+
+  <div class="send">
+    <button id="sendButton">ЗАКАЗАТЬ</button>
+    <div class="modalWindow" id="modWindowOrder">
+      <form>
+        <span onclick="modWindowOrder.style.display='none';">X</span>
+      <p>Укажите, пожалуйста, Ваше имя</p>
+      <p><input id="inp1" type="text" name="userName"></p>
+      <p>и Ваш номер телефона</p>
+      <p><input id="inp2" type="text" name="userPhone"></p>
+      <button id="orderButton" type="submit" name="button">ОТПРАВИТЬ</button>
+    </form>
+  </div>
+  </div>
+  </section>
+
+  <script src='JS/cart.js'></script>
+</body>
+</html>
