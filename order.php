@@ -5,9 +5,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
   $it = $_POST['items'];
   $msg = "hi there";
 
-  echo "Users name $n";
+  $msg = "First line of text\nSecond line of text";
+
+  // use wordwrap() if lines are longer than 70 characters
+  $msg = wordwrap($msg,70);
+
+  // send email
+  mail("tkachenko.com@gmail.com","My subject",$msg);
+
+
+  // echo "Users name $n";
 // file_put_contents("apps.txt", "$n\n $ph\n $it\r\n", FILE_APPEND);
 
-mail('tkachenko.com@gmail.com', $n, $ph, $msg)
+// mail('tkachenko.com@gmail.com', $n, $ph, $msg)
 }
  ?>
