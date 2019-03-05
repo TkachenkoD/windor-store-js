@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
   $msg = wordwrap($msg,70);
 
   // send email
-  mail("tkachenko.com@gmail.com","My subject",$msg);
+  // mail("...@gmail.com","My subject",$msg);
 
 
   // echo "Users name $n";
