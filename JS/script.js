@@ -21,7 +21,7 @@ logIn.addEventListener('click', function(event){
 
 //banners
 
-var banner = ['<a href="https://www.salomon.com/ru/" target="_blank"><img src="Banners/1.png"></a>',
+var banner = ['<a href="https://gourmaniacs.netlify.com" target="_blank"><img src="Banners/1.png"></a>',
 '<a href="#" target="_blank"><img src="Banners/ads.png"></a>',
 '<a href="#" target="_blank"><img src="Banners/ads2.png"></a>'];
 // var rand = Math.trunc(Math.random() * (banner.length - 0) + 0);
